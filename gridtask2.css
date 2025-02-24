@@ -1,0 +1,9 @@
+#parent{
+   column-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    
+}
+#parent > .child1 > img{
+    width: 100%;
+}

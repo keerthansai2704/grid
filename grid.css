@@ -1,0 +1,36 @@
+#parent{
+    background-color: aqua;
+    display: grid;
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+#parent > .child{
+    font-weight: bold;
+    font-size: 20px;
+   
+
+}
+.child1{
+  background-color: brown;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.child2{
+    background-color: blue;
+    
+    grid-column-start:2;
+    grid-column-end: 4;
+}
+.child5{
+    background-color: burlywood;
+    
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+.child3{
+    background-color: blueviolet;
+}
+.child4{
+    background-color: red;
+}
